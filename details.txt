@@ -1,0 +1,18 @@
+Q1. We specify the main class in build.gradle which specifies the entry point to the application.
+https://dennis.gesker.com/2015/08/13/gradle-2-6-how-to-set-the-main-class-to-run-using-the-application-plugin/
+
+Q2. We specify directories which source directories to include in the jar by adding the directories to sourceSets in build.gradle
+https://stackoverflow.com/questions/31077844/add-another-java-source-directory-to-gradle-script
+
+Q3. Files to be excluded can be mentioned as excluded in the jar > exclude.
+https://stackoverflow.com/questions/38663838/gradle-exclude-file-from-being-packaged-with-jar
+
+Q4. An uber jar is a self-sufficient archive which contains both classes and dependencies needed to run an application. The dependencies to be added must be mentioned in the dependencies which in this case is "org.apache.commons:commons-lang3:3.6" and we must create a task which when executed //TODO
+https://stackoverflow.com/questions/10986244/building-a-uberjar-with-gradle
+http://www.baeldung.com/gradle-fat-jar
+
+Q5. The url of the repository to be added must be mentioned in repositories in build.gradle.
+https://bintray.com/docs/usermanual/formats/formats_mavenrepositories.html
+
+Q6. To add tasks from external gradle files simply use apply: from "file name" in build.gradle.
+https://docs.gradle.org/current/userguide/organizing_build_logic.html
