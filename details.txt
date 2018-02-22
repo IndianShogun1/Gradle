@@ -7,7 +7,7 @@ https://stackoverflow.com/questions/31077844/add-another-java-source-directory-t
 Q3. Files to be excluded can be mentioned as excluded in the jar > exclude.
 https://stackoverflow.com/questions/38663838/gradle-exclude-file-from-being-packaged-with-jar
 
-Q4. An uber jar is a self-sufficient archive which contains both classes and dependencies needed to run an application. The dependencies to be added must be mentioned in the dependencies which in this case is "org.apache.commons:commons-lang3:3.6" and we must create a task which when executed //TODO
+Q4. An uber jar is a self-sufficient archive which contains both classes and dependencies needed to run an application. The dependencies to be added must be mentioned in the dependencies which in this case is "org.apache.commons:commons-lang3:3.6" and we must create a task which when executed adds the dependency files when the jar is created.
 https://stackoverflow.com/questions/10986244/building-a-uberjar-with-gradle
 http://www.baeldung.com/gradle-fat-jar
 
